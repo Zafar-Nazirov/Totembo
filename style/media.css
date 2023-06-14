@@ -97,7 +97,6 @@
     max-width: 700px;
     font-size: 30px;
     line-height: 40px;
-    /* top: 250px; */
     padding-top: 250px;
   }
 
@@ -148,6 +147,18 @@
     gap: 30px;
   }
 
+  .main__innerlowertext {
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 300px;
+
+  }
+
+  .main__innersubtitle {
+    font-size: 34px;
+    line-height: 54px;
+  }
+
 }
 
 @media(max-width:900px) {
@@ -165,34 +176,30 @@
 
 @media(max-width:800px) {
   .main__innerlowertext {
-    /* max-width: 700px; */
-    font-size: 20px;
+    font-size: 30px;
     line-height: 40px;
-    padding-top: 200px;
+    padding-top: 250px;
 
   }
 
   .main__innersubtitle {
-    /* max-width: 500px; */
-    font-size: 24px;
+    font-size: 34px;
     line-height: 54px;
   }
 }
 
 @media(max-width:768px) {
   .main__innerlowertext {
-    /* max-width: 500px; */
-    font-size: 15px;
-    line-height: 30px;
-    padding-top: 180px;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 250px;
 
   }
 
   .main__innersubtitle {
-    /* max-width: 500px; */
     width: 100%;
-    font-size: 19px;
-    line-height: 34px;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .main__advice {
@@ -205,20 +212,33 @@
 
 }
 
-
-@media(max-width:660px) {
+@media(max-width:750px) {
   .main__innerlowertext {
-    /* max-width: 500px; */
-    font-size: 15px;
-    line-height: 30px;
-    padding-top: 200px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 230px;
 
   }
 
   .main__innersubtitle {
-    /* max-width: 500px; */
     width: 100%;
-    font-size: 19px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+
+@media(max-width:660px) {
+  .main__innerlowertext {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 220px;
+
+  }
+
+  .main__innersubtitle {
+    width: 100%;
+    font-size: 22px;
     line-height: 34px;
 
   }
@@ -227,19 +247,28 @@
 
 @media(max-width:590px) {
   .main__innerlowertext {
-    /* max-width: 500px; */
     font-size: 15px;
     line-height: 30px;
     padding-top: 200px;
-
+    padding-left: 30px;
   }
 
   .main__innersubtitle {
-    /* max-width: 500px; */
     width: 100%;
     font-size: 19px;
     line-height: 34px;
+    padding-left: 30px;
 
+  }
+
+  .main__innerdate {
+    bottom: 20px;
+    left: 60px;
+  }
+
+  .main__innercontent img {
+    bottom: 20px;
+    left: 30px;
   }
 }
 
@@ -255,26 +284,25 @@
 
 
   .main__innerlowertext {
-    /* max-width: 500px; */
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     padding-top: 150px;
+    padding-left: 30px;
 
   }
 
   .main__innersubtitle {
-    /* max-width: 500px; */
     width: 100%;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 24px;
     padding-top: 80px;
+    padding-left: 30px;
   }
 }
 
 
 @media(max-width:420px) {
   .main__innerlowertext {
-    /* max-width: 500px; */
     font-size: 15px;
     line-height: 18px;
     padding-top: 100px;
@@ -282,7 +310,6 @@
   }
 
   .main__innersubtitle {
-    /* max-width: 500px; */
     width: 100%;
     font-size: 15px;
     line-height: 20px;
@@ -304,14 +331,17 @@
 
   .header__card-one {
     flex-direction: column;
+    padding: 74px 72px 45px 70px;
   }
 
   .header__card-two {
     flex-direction: column;
+    padding: 74px 72px 45px 70px;
   }
 
   .header__card-three {
     flex-direction: column;
+    padding: 74px 72px 45px 70px;
   }
 
   .header__content {
@@ -321,16 +351,6 @@
 
   .header__card-three img {
     max-height: 500px;
-  }
-
-  .header__absolute p {
-    padding: 8px 20px;
-
-    font-size: 15px;
-  }
-
-  .main__discount {
-    padding: 10px 33px;
   }
 
   .main__percent {
@@ -358,7 +378,6 @@
 
 @media(max-width:365px) {
   .main__innerlowertext {
-    /* max-width: 500px; */
     font-size: 10px;
     line-height: 18px;
     padding-top: 85px;
@@ -366,11 +385,10 @@
   }
 
   .main__innersubtitle {
-    /* max-width: 500px; */
     width: 100%;
     font-size: 10px;
     line-height: 20px;
-    padding-top: 40px;
+    padding-top: 45px;
   }
 
   .main__advice {
@@ -382,8 +400,18 @@
     font-size: 8px;
   }
 
-  .header__card-one {
-    padding: 71px 50px 47px 119px;
+  .header__absolute p {
+    padding: 5px 20px;
+    font-size: 10px;
   }
+
+  .main__discount {
+    padding: 5px 20px;
+  }
+
+  .main__percent {
+    font-size: 10px;
+  }
+
 
 }
